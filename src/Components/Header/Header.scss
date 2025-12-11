@@ -1,91 +1,73 @@
 .header {
+  height: 70px;
   display: flex;
   color: #fff;
-  
   font-size: x-large;
   flex-direction: column;
-
-  height: 75px;
   background-color: #0000009a;
 
       .information{
           display: flex;
           flex-direction: row;
 
-
             .group{
                 display: flex;
                 flex-direction: row;
 
-
-
                 .button {
                     color: white;
-                    font-size: 11px;
+                    font-size: 9px;
                     cursor: pointer;
                     margin-top: 20px;
                     background: none;
                     transition: 0.3s;
                     align-self: start;
                     font-weight: bold;
-                    padding: 10px 10px;
-                    border-radius: 10px;
                     margin-left: 20px;
                     margin-right: 20px;
+                    padding: 10px 10px;
+                    border-radius: 10px;
                     border: 2px solid white;
                 }
                 
                 .button:hover {
                     transform: translateY(-2px); /* Слегка поднимаем кнопку */
-                    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Добавляем свечение */
                     background: rgba(255, 255, 255, 0.1); /* Легкая подсветка фона */
+                    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Добавляем свечение */
                 }
-
-
-
             }
             
-
-
-
-          .logo{
-              width: 60px;
-              height: 60px;
+          .logo {
+              width: 45px;
+              height: 45px;
               display: flex;
               margin-top: 10px;
               margin-left: 20px;
               flex-direction: row;
           }
 
-
-          .logo:hover{
-          
-        }
-
           .sdv{
-                 
-              margin-left: 0px;
               display: flex;
-              flex-direction: column;
+              margin-left: 0px;
               margin-left: auto;
               margin-right: auto;
+              flex-direction: column;
+
               .txt {   
-                  margin-left: 400px;
                   color: #fff;
+                  font-size: 20px;
                   padding-top: 30px;
-                  
-                  
+                  margin-left: 400px;  
               }
           }
 
           .buttongruop{
-              
               display: flex;
               margin-top: 10px;
-              //margin-left: auto;
               margin-right: 20px;
               flex-direction: row;
               justify-content: flex-end;
+              
               .button:hover{
                   color: gray;
               }

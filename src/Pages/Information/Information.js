@@ -97,7 +97,7 @@ export const Information = () => {
           <div className='text'>
             <div className='left'>
               <text className='textleft'>
-                 Регламентное ТО. Жидкости и фильтры
+                Регламентное ТО. Жидкости и фильтры
               </text>
             </div>
 

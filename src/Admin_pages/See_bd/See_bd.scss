@@ -1,0 +1,22 @@
+.see_bd{
+   display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding-top: 20px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+
+    .button_see{
+      margin-left: auto;
+      flex-direction: row;
+    
+      .button_sdvig{
+      margin-right: 20px;
+    }
+
+
+    }
+
+
+
+}

@@ -7,7 +7,8 @@ import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import { Send } from './Pages/Send/Send';
 import { Catalog } from './Pages/Catalog/Catalog';
 import { Servis } from './Pages/Servis/Servis';
-import { Admin } from './Pages/Admin/Admin';
+import { Admin } from './Admin_pages/Admin/Admin';
+import { See_bd } from './Admin_pages/See_bd/See_bd';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
           {/* Админ-панель без MainLayout */}
           <Route path='/wp-admin' element={<Admin />} />
+          <Route path='/See_bd' element={<See_bd />} />
         </Routes>
       </BrowserRouter>
     </div>

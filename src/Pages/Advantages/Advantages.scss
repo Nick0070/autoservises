@@ -1,37 +1,32 @@
 .advantages {
-  padding-top: 50px;
   display: flex;
+  padding-top: 50px;
   flex-direction: column;
-
   .adv {
+    font-size: 25px;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
-    font-size: 30px;
   }
 
   .box {
-    padding-top: 60px;
-    display: flex;
-    justify-content: space-between; // Растягивает элементы по краям
-    align-items: center; // Выравнивает по вертикали
     width: 70%; // На всю ширину родителя
+    display: flex;
     margin: 0 auto;
+    padding-top: 60px;
+    align-items: center; // Выравнивает по вертикали
+    justify-content: space-between; // Растягивает элементы по краям
 
     .left {
-      padding-right: 70px;
-      font-size: 20px;
       color: #fff;
+      font-size: 15px;
       padding-left: 50px;
+      padding-right: 70px;
 
       .name{
+        font-size: 20px;
         font-weight: 700;
-        font-size: 25px;
         padding-bottom: 10px;
-
-
-
-
       }
     }
 
@@ -39,6 +34,5 @@
       color: #fff;
       padding-right: 50px;
     }
-
   }
 }
