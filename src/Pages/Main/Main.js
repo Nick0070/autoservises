@@ -18,7 +18,12 @@ export const Main = () => {
 
     return (
 
+
+
+
+
       <div>
+        <div className='fon'>
           <div className='lozyng'>
           Ремонт с комфортом – для вас и вашей машины  
           </div>
@@ -27,7 +32,7 @@ export const Main = () => {
             С любовью АвтоХаус!
           </div>
           <button className='btn2'  onClick={scrollToAppointment}> Записаться </button>
-         
+         </div>
         
       <div className="main">      
       {/* Блок Автозапчасти */}
