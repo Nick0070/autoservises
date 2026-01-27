@@ -1,164 +1,144 @@
-.fon{
-background:no-repeat;
-background-size: cover;
-width: 100%;
-height: 800px;
-background-image: url('../../../public/Image/fon.jpg');
 
+    .fon{
+
+    width: 100%;
+    height: 800px;
+    background:no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/Image/fon.jpg');
+
+      .container{
+
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        max-width: 1296px;
+
+            .prelude__container{
+
+            width: 100%;
+            display: flex;
+            min-height: 804px;
+            align-items: center;
+            -ms-flex-pack: start;
+            padding-bottom: 264px;
+            -ms-flex-align: center;
+            -webkit-box-pack: start;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            justify-content: flex-start;
+            -webkit-justify-content: flex-start;
+
+            // display: -webkit-box;
+            // display: -webkit-flex;
+            // display: -ms-flexbox;
+
+
+                  .prelude__mass{
+
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  -ms-flex-pack: justify;
+                  -ms-flex-align: center;
+                  -webkit-box-align: center;
+                  -webkit-box-pack: justify;
+                  -webkit-align-items: center;
+                  justify-content: space-between;
+                  -webkit-justify-content: space-between;
+                  
+                  // display: -webkit-box;
+                  // display: -webkit-flex;
+                  // display: -ms-flexbox;
+
+                      .prelude_title{
+
+                        font-size: 38px;
+                        font-weight: 600;
+                        line-height: 130%;
+                        margin-right: 30px;
+                        justify-content: flex-start;
+
+
+                            .lozyng{
+                            color: #fff;
+                            font-size: 30px;  
+                            max-width: 1296px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            text-align: center;
+                            align-items: center;
+                            }
+
+                            .loz{
+                            color: #fff;
+                            font-size: 15px;
+                            margin-top: 20px;
+                            text-align:center;
+                            }
+
+                       }
+
+
+                          .button_title_line{
+                            display: flex;
+                            padding-top: 50px;
+                           flex-direction: row;
+
+                                    .button_title{
+
+                                      height: 52px;
+                                      border: none;
+                                      cursor: pointer;
+                                      padding: 0 20px;
+                                      font-size: 16px;
+                                      min-width: 300px;
+                                      color: #FFFFFF;
+                                      font-weight: 500;
+                                      border-radius: 15px;
+                                      white-space: nowrap;
+                                      transition: all 0.3s ease;
+                                      background-color: #d6793e;
+                                    }
+                                      .button_title:hover {
+                                      background-color: #c06a34;
+                                      transform: translateY(-2px);
+                                      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                                      }
+
+
+                                    .button_title2{
+
+                                        height: 52px;
+                                        border: none;
+                                        cursor: pointer;
+                                        padding: 0 20px;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        min-width: 300px;
+                                        color: #FFFFFF;
+                                        margin-left: 28px;
+                                        border-radius: 15px;
+                                        white-space: nowrap;
+                                        transition: all 0.3s ease;
+                                        background-color: #4C5157;
+                                        }
+                                      .button_title2:hover {
+                                      background-color: #2f3436;
+                                      transform: translateY(-2px);
+                                      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                                      }
+
+                            }
+            }
+    } 
     
-.lozyng{
-  color: #fff;
-  font-size: 30px;
-  //margin-top: 400px;
-  padding-top: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  align-items: center;
-}
-
-.loz{
-  color: #fff;
-  font-size: 15px;
-  margin-top: 20px;
-  text-align:center;
-}
-
-
-.btn2 {
-  
-  color: white;
-  font-size: 11px;
-  cursor: pointer;
-  margin-top: 20px;
-  background: none;
-  transition: 0.3s;
-  align-self: start;
-  font-weight: bold;
-  margin-left: auto;
-  padding: 10px 10px;
-  margin-left: 670px;
-  margin-right: auto;
-  border-radius: 10px;
-  border: 2px solid white;
-}
-
-.btn2:hover {
-  transform: translateY(-2px); /* Слегка поднимаем кнопку */
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Добавляем свечение */
-  background: rgba(255, 255, 255, 0.1); /* Легкая подсветка фона */
-}
-
-
-
-
+  }
 
 }
 
 
 
 
-
-
-
-.main {
-  gap: 20px;
-  padding: 40px;
-  display: flex;
-  margin-top: 200px;
-  justify-content: center;
-  background-color: #1a1a1a;
-}
-
-
-.box {
-  gap: 20px; 
-  width: 800px;
-  padding: 20px;
-  display: flex;
-  color: white;
-  text-align: left;
-  border-radius: 10px;
-  align-items: center;
-  flex-direction: row;
-}
-
-/* Цвет фона */
-.dark {
-  background-color: #020224;
-}
-
-.grey {
-  background-color: #333333;
-}
-
-/* Текстовый блок */
-.text {
-  flex: 1; /* Занимает оставшееся пространство */
-  display: flex;
-  flex-direction: column; /* Текст идет друг под другом */
-  justify-content: center;
-  gap: 10px; /* Отступы между заголовком, текстом и кнопкой */
-
-
-  .button {
-    color: white;
-    font-size: 11px;
-    cursor: pointer;
-    margin-top: 20px;
-    background: none;
-    transition: 0.3s;
-    align-self: start;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 2px solid white;
-}
-
-.button:hover {
-    transform: translateY(-2px); /* Слегка поднимаем кнопку */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Добавляем свечение */
-    background: rgba(255, 255, 255, 0.1); /* Легкая подсветка фона */
-}
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-}
-
-p {
-  font-size: 16px;
-  margin: 0;
-}
-
-/* Кнопка */
-.btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: none;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-  align-self: start;
-  border-radius: 5px;
-  border: 2px solid white;
-}
-
-.btn:hover {
-  background: white;
-  color: black;
-}
-
-/* Изображение */
-.image {
-  width: 400px;
-  border-radius: 10px;
-}
 
 
