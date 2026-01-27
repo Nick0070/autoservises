@@ -17,7 +17,7 @@ export const Main = () => {
 
     return (
 
-       <div>
+       <div> 
 
             <div className='fon'>
               <div className='container'>
