@@ -27,7 +27,7 @@ export const Main = () => {
                       <div className='lozyng'>
                         Ремонт с комфортом – для вас и вашей машины  
                       </div>
-                      <div className='loz'>
+                      <div className='loz'> 
                         С любовью АвтоХаус!
                       </div>
                       
