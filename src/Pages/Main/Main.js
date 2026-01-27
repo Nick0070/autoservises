@@ -42,7 +42,10 @@ export const Main = () => {
             </div>
 
 
+              <div className='fon2'>
 
+              
+              </div>
 
 
           
