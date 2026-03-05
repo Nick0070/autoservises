@@ -30,9 +30,10 @@ export default function Header() {
             </div>
 
             <div className='header_center'>
-              <a href="/about/" className="menu__link"> О компании </a>
+              <a href="/Company" className="menu__link"> О компании </a>
               <a href="/catalog" className="menu__link"> Каталог </a>
               <a href="/Servis" className="menu__link"> Услуги сервисного центра </a>
+                <a href="/" className="menu__link"> Контакты </a>
             </div>
 
              <div className='header_right'>

@@ -1,0 +1,105 @@
+.about_txt {
+
+padding: 20px;
+max-width: 1280px;
+font-family: "Jost";
+display: flex;
+flex-direction: column;
+gap: 10px;
+text-align: left;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+
+.about-block {
+padding-bottom: 20px;
+margin-bottom: 10px;
+border-bottom: 1px solid #57585b;
+line-height: 1.6;
+font-size: 16px;
+color: #ffffff;
+text-align: justify;
+text-justify: inter-word;
+}
+
+.about-block__title {
+font-weight: 600;
+font-size: 18px;
+color: #ff6b00;
+margin-bottom: 5px;
+}
+
+.about-block__content {
+font-size: 18px;
+line-height: 1.5;
+color: #ffffff;
+text-align: justify;
+text-justify: inter-word;
+}
+
+// .about_fon {
+// background-image: url('../../../public/Image/company.png');
+// background-size: 100%;
+// //background-position: center bottom;
+// background-repeat: no-repeat;
+// min-height: 50vh;
+// margin-bottom: -20px;
+// }
+
+// .about_fon {
+//   background-image: url('../../../public/Image/company.png');
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   min-height: 50vh;
+//   margin-bottom: -20px;
+// }
+
+.about_fon {
+  background-image: url('../../../public/Image/company.png');
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  margin-bottom: -20px;
+}
+
+
+
+
+.about_header{
+ border-top: 4px solid #ff6b00;
+  padding-bottom: 40px;
+
+}
+
+.about_page{
+    background:#f5f5f5;
+    padding:40px 60px;
+}
+
+.about_header h1{
+    font-size:36px;
+    margin-bottom:10px;
+    color:#fffdfd;
+}
+
+.breadcrumbs{
+    font-size:16px;
+    margin-bottom:40px;
+}
+
+.breadcrumbs a{
+    color:#444;
+    text-decoration:none;
+    border-bottom:1px solid #000;
+}
+
+.breadcrumbs span{
+    color:#888;
+}
+
+.breadcrumbs .active{
+    color:#706f6f;
+}

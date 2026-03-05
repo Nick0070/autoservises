@@ -10,6 +10,9 @@ import { Servis } from './Pages/Servis/Servis';
 import { Admin } from './Admin_pages/Admin/Admin';
 import { See_bd } from './Admin_pages/See_bd/See_bd';
 
+import { Company } from './Pages/Company/Company';
+
+
 function App() {
   return (
     <div className='style'>
@@ -21,12 +24,14 @@ function App() {
               <>
                 <Main />
                 <Information />
-                <Send />
-                <Advantages />
+                {/* <Send />
+                <Advantages /> */}
+            
               </>
             } />
             <Route path='/catalog' element={<Catalog />} />
             <Route path='/Servis' element={<Servis />} />
+             <Route path='/Company' element={<Company />} />
           </Route>
 
           {/* Админ-панель без MainLayout */}
