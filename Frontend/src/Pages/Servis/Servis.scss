@@ -1,0 +1,323 @@
+// .catalog {
+//     gap: 10px;
+//     padding: 20px;
+//     display: flex;
+//     margin: 0 auto;
+//     text-align: left;
+//     max-width: 1280px;
+//     font-family: "Jost";
+//     flex-direction: column;
+//     box-sizing: border-box;
+
+// .about_header{
+//     padding-bottom: 40px;
+//     border-top: 4px solid #ff6b00;
+// }
+
+// .about_page{
+//     padding:40px 60px;
+//     background:#f5f5f5;
+// }
+
+// .about_header h1{
+//     font-size:36px;
+//     color:#ffffff;
+//     margin-bottom:10px;
+// }
+
+// .breadcrumbs{
+//     font-size:16px;
+//     margin-bottom:40px;
+// }
+
+// .breadcrumbs a{
+//     color:#444;
+//     text-decoration:none;
+//     border-bottom:1px solid #000;
+// }
+
+// .breadcrumbs span{
+//     color:#888;
+// }
+
+// .breadcrumbs .active{
+//     color:#706f6f;
+// }
+
+
+
+
+
+
+
+
+
+
+//   .name {
+//     font-size:30px;
+//     text-align: center;
+//     padding-top: 300px;
+//     padding-bottom: 400px;
+//   }
+
+//   .svg {
+//     gap: 10px; // Уменьшили расстояние между рядами
+//     display: flex;
+    
+//     flex-direction: column;
+//           @media (max-width: 992px) {
+//             max-width: 720px;
+//           }
+
+//           @media (max-width: 767px) {
+//             max-width: 540px;
+//              padding: 0 0px;
+//           }
+
+//           @media (max-width: 576px) {
+//             max-width: 100%;
+//             padding: 0 10px;
+//           }
+
+
+
+
+
+//     .row {
+//       gap: 60px; // Уменьшили расстояние между картинками в ряду
+//       display: flex;
+//       justify-content: center;
+//         @media (max-width: 767px) {
+//               gap: 0px
+//             }
+
+//       figure {
+//         margin: 0;
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+
+//         .fill {
+//           width: 200px;
+//           margin-bottom: -40px; // Приподнимаем картинку ближе к тексту
+//           filter: brightness(0) invert(1);
+
+//             @media (max-width: 767px) {
+//               width: 150px;
+//             }
+//         }
+
+//         .fill:hover,
+//         .filltext:hover {
+//           filter: brightness(0.5) invert(0.5);
+//         }
+
+//         figcaption {
+//           color: #fff;
+//           font-size: 16px;
+//           margin-top: 5px; // Уменьшили отступ сверху для текста
+//           line-height: 1.3; // Уменьшаем межстрочный интервал
+//           text-align: center;
+
+//               @media (max-width: 767px) {
+//               font-size: 10px;
+//             }
+
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+/* Основной каталог */
+.catalog {
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1280px;
+  font-family: "Jost";
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Блок "О нас" */
+.about_page {
+  padding: 40px 60px;
+  background: #f5f5f5;
+}
+
+.about_header {
+  padding-bottom: 40px;
+  border-top: 4px solid #ff6b00;
+}
+
+.about_header h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Хлебные крошки */
+.breadcrumbs {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs a {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.breadcrumbs span {
+  color: #888;
+}
+
+.breadcrumbs .active {
+  color: #706f6f;
+}
+
+/* Блок с именем (возможно, заголовок раздела) */
+.name {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 400px;
+}
+
+/* SVG галерея */
+.svg {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Ряды с иконками */
+.svg .row {
+  gap: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Добавил перенос для адаптивности */
+}
+
+.svg .row figure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg .row .fill {
+  width: 200px;
+  margin-bottom: -40px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease; /* Плавный переход при ховере */
+}
+
+.svg .row .fill:hover,
+.svg .row .filltext:hover {
+  filter: brightness(0.5) invert(0.5);
+}
+
+.svg .row figcaption {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 5px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* ==================== АДАПТИВНОСТЬ ==================== */
+
+/* Планшеты и небольшие десктопы */
+@media (max-width: 992px) {
+  .svg {
+    max-width: 720px;
+    margin: 0 auto; /* Центрирование на планшетах */
+  }
+}
+
+/* Мобильные устройства (горизонтальная ориентация и небольшие планшеты) */
+@media (max-width: 767px) {
+  .about_page {
+    padding: 30px 20px; /* Уменьшаем отступы на мобильных */
+  }
+
+  .about_header h1 {
+    font-size: 28px;
+  }
+
+  .breadcrumbs {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .name {
+    font-size: 24px;
+    padding-top: 150px; /* Уменьшаем отступы для мобильных */
+    padding-bottom: 200px;
+  }
+
+  .svg {
+    max-width: 540px;
+    padding: 0; /* Убираем лишние паддинги */
+  }
+
+  .svg .row {
+    gap: 30px; /* Уменьшаем расстояние между элементами */
+  }
+
+  .svg .row .fill {
+    width: 150px;
+  }
+
+  .svg .row figcaption {
+    font-size: 12px;
+  }
+}
+
+/* Маленькие мобильные телефоны */
+@media (max-width: 576px) {
+  .about_page {
+    padding: 20px 15px;
+  }
+
+  .about_header h1 {
+    font-size: 24px;
+  }
+
+  .breadcrumbs {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+
+  .svg {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .svg .row {
+    gap: 20px; /* Ещё меньше расстояние на маленьких экранах */
+  }
+
+  .svg .row .fill {
+    width: 120px;
+    margin-bottom: -30px; /* Корректируем отрицательный отступ */
+  }
+
+  .svg .row figcaption {
+    font-size: 10px;
+  }
+}
+

@@ -1,0 +1,404 @@
+
+//     .footer {
+//         z-index: 9;
+//         padding-top: 100px;
+//         position: relative;
+//         padding-bottom: 32px;
+//         background-color: #000000;
+
+//           .container {
+//             width: 100%;
+//             margin: 0 auto;
+//             padding: 0 15px;
+//             max-width: 1296px;
+
+//             @media (max-width: 992px) {
+//                         max-width: 720px;
+//                       }
+
+//                       @media (max-width: 767px) {
+//                         max-width: 540px;
+//                       }
+
+//                       @media (max-width: 576px) {
+//                         max-width: 100%;
+//                         padding: 0 10px;
+//                       }
+
+
+
+//                 .footer__set {
+//                     display: -webkit-box;
+//                     display: -webkit-flex;
+//                     display: -ms-flexbox;
+
+//                     display: flex;
+//                     -ms-flex-align: start;
+//                     -ms-flex-pack: justify;
+//                     align-items: flex-start;
+//                     -webkit-box-align: start;
+//                     -webkit-box-pack: justify;
+//                     justify-content: space-between;
+//                     -webkit-align-items: flex-start;
+//                     -webkit-justify-content: space-between;
+//                 }
+//       }
+
+
+
+//     }
+
+
+
+// .footer__cellar {
+// display: none;
+// }
+
+// .footer__left {
+// padding-right: 34px;
+// }
+
+// .footer__center {
+// // padding-right: 20px;
+
+
+//                   @media (max-width: 767px) {
+//                       display: none;
+//                       }
+
+//                       @media (max-width: 576px) {
+//                       display: none;
+//                       }
+
+
+
+
+// }
+
+// .footer__right {
+// min-width: 457px;
+// max-width: 457px;
+// display: -webkit-box;
+// display: -webkit-flex;
+// display: -ms-flexbox;
+// display: flex;
+// -webkit-box-orient: vertical;
+// -webkit-box-direction: normal;
+// -webkit-flex-direction: column;
+// -ms-flex-direction: column;
+// flex-direction: column;
+// -webkit-box-align: start;
+// -webkit-align-items: flex-start;
+// -ms-flex-align: start;
+// align-items: flex-start;
+// -webkit-box-pack: start;
+// -webkit-justify-content: flex-start;
+// -ms-flex-pack: start;
+// justify-content: flex-start;
+// }
+
+// .footer__menu-link {
+
+// font-family: "Jost";
+// font-size: 16px;
+// line-height: 35px;
+// font-weight: 400;
+// text-transform: uppercase;
+// color: #FFFFFF;
+// text-decoration: none;
+// -webkit-transition: all 0.3s;
+// -o-transition: all 0.3s;
+// transition: all 0.3s;
+// }
+
+// .footer__menu-link:hover {
+// opacity: 0.7;
+// }
+
+// .footer__phone {
+// margin-bottom: 5px;
+// text-decoration: none;
+// display: inline-block;
+// color: #FFFFFF;
+// font-family: "Jost";
+// font-size: 20px;
+// font-weight: 700;
+// line-height: 140%;
+// text-transform: uppercase;
+// -webkit-transition: all 0.3s;
+// -o-transition: all 0.3s;
+// transition: all 0.3s;
+// }
+
+// .footer__address-property {
+// font-weight: 700;
+// line-height: 120%;
+// margin-bottom: 7px;
+// }
+
+// .footer__address-val {
+// font-weight: 400;
+// line-height: 140%;
+// }
+
+// .footer__mail {
+// margin-bottom: 19px;
+// text-decoration: none;
+// display: inline-block;
+// color: #FFFFFF;
+// font-family: "Jost";
+// font-size: 16px;
+// line-height: 120%;
+// font-weight: 400;
+// border-bottom: 1px solid;
+// -webkit-transition: all 0.3s;
+// -o-transition: all 0.3s;
+// transition: all 0.3s;
+// }
+
+// .footer__logo {
+
+// max-width: 230px;
+// display: -webkit-inline-box;
+// display: -webkit-inline-flex;
+// display: -ms-inline-flexbox;
+// display: inline-flex;
+// -webkit-box-align: start;
+// -webkit-align-items: flex-start;
+// -ms-flex-align: start;
+// align-items: flex-start;
+
+//               @media (max-width: 767px) {
+//                       width: 100px;
+//               }
+// }
+
+
+// .footer__copyright{
+// text-align: center;
+// color: #FFFFFF;
+//             @media (max-width: 767px) {
+//                       font-size: 10px;
+//                       }
+
+// }
+
+// .footer__address{
+//   font-family: "Jost";
+//   color: #FFFFFF;
+//   @media (max-width: 767px) {
+//                       width: 140px;
+//                       font-size: 10px;
+//                       }
+// }
+
+// .footer__address-val{
+// font-family: "Jost";
+//   color: #FFFFFF;
+// }
+.footer {
+  z-index: 9;
+  padding-top: 100px;
+  position: relative;
+  padding-bottom: 32px;
+  background-color: #000000;
+  overflow-x: hidden; // Добавить для безопасности
+
+    @media (max-width: 767px) {
+       padding-top: 30px;
+    }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1296px;
+
+    // Исправленный порядок (от большего к меньшему)
+    @media (max-width: 1296px) {
+      max-width: 100%;
+    }
+    
+    @media (max-width: 992px) {
+      max-width: 720px;
+    }
+
+    @media (max-width: 767px) {
+      max-width: 540px;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+
+    .footer__set {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      
+      // Адаптация для планшетов и мобильных
+      @media (max-width: 992px) {
+        flex-wrap: wrap; // Разрешаем перенос
+        gap: 30px;
+      }
+      
+      @media (max-width: 767px) {
+        flex-direction: column;
+        gap: 40px;
+      }
+    }
+  }
+}
+
+.footer__left {
+  padding-right: 34px;
+  
+  @media (max-width: 767px) {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+
+.footer__center {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.footer__right {
+  // ИСПРАВЛЕНО: убираем фиксированную ширину
+  min-width: auto; // или удалить это свойство
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  // Для десктопа можно оставить ограничение
+  @media (min-width: 993px) {
+    max-width: 457px;
+    min-width: 300px; // минимальная ширина для десктопа
+  }
+  
+  @media (max-width: 992px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.footer__menu-link {
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block; // Добавить для лучшего контроля
+  
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.footer__phone {
+  margin-bottom: 5px;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: "Jost";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  
+  @media (max-width: 576px) {
+    font-size: 18px; // Уменьшаем на телефонах
+  }
+}
+
+.footer__address-property {
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 7px;
+}
+
+.footer__address-val {
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.footer__mail {
+  margin-bottom: 19px;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+  border-bottom: 1px solid;
+  transition: all 0.3s;
+  
+  @media (max-width: 576px) {
+    font-size: 14px;
+  }
+}
+
+.footer__logo {
+  max-width: 230px;
+  display: inline-flex;
+  align-items: flex-start;
+  
+   @media (max-width: 767px) {
+    max-width: 120px;
+    // ДОБАВЛЯЕМ ЦЕНТРИРОВАНИЕ:
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+   }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.footer__copyright {
+  text-align: center;
+  color: #FFFFFF;
+  
+  @media (max-width: 767px) {
+    font-size: 10px;
+  }
+}
+
+.footer__address {
+  font-family: "Jost";
+  color: #FFFFFF;
+  
+  @media (max-width: 767px) {
+    width: 100%; // Изменено с 140px на 100%
+    font-size: 12px; // Увеличен с 10px для читаемости
+  }
+}
+
+.footer__cellar {
+  display: none;
+}
+
+// Дополнительный глобальный сброс (добавить в начало CSS)
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box; // Важно для корректных расчетов ширины
+}
