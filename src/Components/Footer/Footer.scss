@@ -1,16 +1,32 @@
 
     .footer {
-    z-index: 9;
-    padding-top: 100px;
-    position: relative;
-    padding-bottom: 32px;
-    background-color: #000000;
+        z-index: 9;
+        padding-top: 100px;
+        position: relative;
+        padding-bottom: 32px;
+        background-color: #000000;
 
-      .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 15px;
-        max-width: 1296px;
+          .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+            max-width: 1296px;
+
+                .footer__set {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+
+                    display: flex;
+                    -ms-flex-align: start;
+                    -ms-flex-pack: justify;
+                    align-items: flex-start;
+                    -webkit-box-align: start;
+                    -webkit-box-pack: justify;
+                    justify-content: space-between;
+                    -webkit-align-items: flex-start;
+                    -webkit-justify-content: space-between;
+                }
       }
 
 
@@ -18,20 +34,6 @@
     }
 
 
-.footer__set {
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: start;
--webkit-align-items: flex-start;
--ms-flex-align: start;
-align-items: flex-start;
--webkit-box-pack: justify;
--webkit-justify-content: space-between;
--ms-flex-pack: justify;
-justify-content: space-between;
-}
 
 .footer__cellar {
 display: none;

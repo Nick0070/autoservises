@@ -9,13 +9,8 @@ import { useNavigate } from 'react-router-dom';
 
 
 export const Main = () => {
-    const navigate = useNavigate();
+  
 
-    // Прокрутка к "Записаться"
-    const scrollToAppointment = () => {
-      const element = document.getElementById('appointment-section');
-      if (element) element.scrollIntoView({ behavior: 'smooth' });
-    };
 
 
     return (
@@ -35,8 +30,9 @@ export const Main = () => {
                       </div>
                       
                       <div className='button_title_line'>
-                        <button className='button_title' onClick={scrollToAppointment}>О компании</button>
-                        <button className='button_title2' onClick={scrollToAppointment}>Каталог</button>
+
+                        <a href="/Company" className="menu__link"> <button className='button_title' >О компании</button> </a>
+                         <a href="/catalog" className="menu__link"> <button className='button_title2' >Каталог</button>  </a>
                       </div>
                     </div>
                   </div>

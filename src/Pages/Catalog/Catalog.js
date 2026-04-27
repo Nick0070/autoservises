@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Catalog.scss';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export const Catalog = () => {
   const [products, setProducts] = useState([]);
@@ -40,7 +41,16 @@ export const Catalog = () => {
   return (
     <div className="catalog">
       
-      <h1 className='name'>Каталог товаров</h1>
+          <div className="about_header">
+                <h1>Каталог</h1>
+                <div className="breadcrumbs">
+                    <Link to="/">Главная</Link>
+                    <span> / </span>
+                    <span className="active">Каталог</span>
+                </div>
+            </div>
+
+
       <div className="products">
         {products.map(product => (
           <div key={product.id} className="product">

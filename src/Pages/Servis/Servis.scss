@@ -1,8 +1,57 @@
 .catalog {
-  display: flex;
-  color: #fff;
-  padding-bottom: 50px;
-  flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 1280px;
+    font-family: "Jost";
+    flex-direction: column;
+    box-sizing: border-box;
+
+.about_header{
+    padding-bottom: 40px;
+    border-top: 4px solid #ff6b00;
+}
+
+.about_page{
+    padding:40px 60px;
+    background:#f5f5f5;
+}
+
+.about_header h1{
+    font-size:36px;
+    color:#ffffff;
+    margin-bottom:10px;
+}
+
+.breadcrumbs{
+    font-size:16px;
+    margin-bottom:40px;
+}
+
+.breadcrumbs a{
+    color:#444;
+    text-decoration:none;
+    border-bottom:1px solid #000;
+}
+
+.breadcrumbs span{
+    color:#888;
+}
+
+.breadcrumbs .active{
+    color:#706f6f;
+}
+
+
+
+
+
+
+
+
+
 
   .name {
     font-size:30px;
@@ -14,7 +63,7 @@
   .svg {
     gap: 10px; // Уменьшили расстояние между рядами
     display: flex;
-    padding-top: 70px;
+    
     flex-direction: column;
 
     .row {
@@ -50,3 +99,7 @@
     }
   }
 }
+
+
+
+

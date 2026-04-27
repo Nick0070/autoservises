@@ -21,7 +21,7 @@ export default function () {
                             <li className="footer__menu-item"><a href="/Company" className="footer__menu-link">О компании</a></li>
                             <li className="footer__menu-item"><a href="/catalog" className="footer__menu-link">Каталог</a></li>
                             <li className="footer__menu-item"><a href="/Servis" className="footer__menu-link">Услуги сервисного центра</a></li>
-                            <li className="footer__menu-item"><a href="/" className="footer__menu-link">Контакты</a></li>
+                            <li className="footer__menu-item"><a href="/Contact" className="footer__menu-link">Контакты</a></li>
                         </ul>
                       </div>
                         <div className="footer__right">

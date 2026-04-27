@@ -1,5 +1,6 @@
 import './Servis.scss';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Servis = () => {
   const images = [
@@ -21,7 +22,15 @@ export const Servis = () => {
 
   return (
     <div className='catalog'>
-      <div className='name'>Услуги сервисного центра</div>
+
+        <div className="about_header">
+                <h1>Услуги сервисного центра</h1>
+                <div className="breadcrumbs">
+                    <Link to="/">Главная</Link>
+                    <span> / </span>
+                    <span className="active">Услуги сервисного центра</span>
+                </div>
+            </div>
       <div className='svg'>
         {rows.map((row, rowIndex) => (
           <div className='row' key={rowIndex}>
